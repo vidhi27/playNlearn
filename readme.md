@@ -15,11 +15,19 @@ Technologies Used
 -Node.js, Express, Bcrypt
 -MySQL, Sequelize
 
-Future Deevlopment
+Future Development
 -Implementing Bcrypt fully
 -Introducing games to other languages like CSS, JAVASCRIPT
 -Introcuding visual games so the kids can run the code or watch and learn
 -Adding progress report
+
+Click here to try the app:
+
+![picture_one](https://github.com/vidhi27/playNlearn/blob/master/picture_one.png)
+![1](https://github.com/vidhi27/playNlearn/blob/master/1.png)
+![3](https://github.com/vidhi27/playNlearn/blob/master/3.png)
+
+
 
 Created by:
 -Nirav 
