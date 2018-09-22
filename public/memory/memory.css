@@ -1,0 +1,202 @@
+/* TESTING MEMORY GAME CSS */
+html,body{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+#canvas-game{
+	margin: 0 auto;
+	/* margin-top: 50%; */
+	text-align:left;
+	width:612px;
+	margin-top:20px;
+	border:Solid 1px #ebe5e5;
+	height:385px;
+	position:relative;
+}
+
+#instruction-game {
+	background-color: rgb(253, 247, 231);
+	/* border:solid 1px #ebe5e5; */
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size:24px;
+	text-align: left;
+	font-family: 'Fredoka One', cursive;
+	color: rgb(239, 146, 69);
+}
+
+.game-back {
+	/* padding-top: 2%; */
+	padding-bottom: 8%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 750px;
+	height: 850px;
+	background-color: rgb(253, 247, 231);
+	border: solid 10px rgb(33, 168, 168);
+	box-shadow: 5px 5px 10px 10px rgb(0, 0, 0, 0.5);
+}
+
+#game-statistic{
+	margin:0 auto;
+	text-align:left;
+	width:612px;
+	margin-top:20px;
+}
+
+
+#statistic-left, #statistic-right{
+	font-size:20px;
+	float:left;
+	color: rgb(178, 21, 10);
+	font-family: 'Fredoka One', cursive;
+}
+
+#statistic-right{
+	float:right;
+}
+
+.bold-text{
+	font-weight:bold;
+}
+
+.clear{
+	clear:both;
+}
+
+.box-picture{
+	float:left;
+	width:100px;
+	height:75px;
+	border:solid 1px #ebe5e5;
+        display:none;
+}
+
+.box-picture > img{
+	width:100px;
+	height:75px;
+}
+
+.box-cover-wrapper{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:100;
+}
+
+.box-cover{
+	width:100px;
+	height:75px;
+    background:url(../memory/images/cover.png) no-repeat;
+    background-color: white;
+	border:solid 1px #ebe5e5;
+	float:left;
+	cursor:pointer;
+}
+
+#game-message{
+	margin:0 auto;
+	font-size:20px;
+	background:#f7f5b5;
+	padding:15px;
+	border:solid 1px #ccc;
+	border-radius:5px;
+	width:612px;
+	display:none;
+}
+
+#btnRestart{
+	padding:15px;
+	font-weight:bold;
+	text-align:center;
+	background:#043255;
+	text-decoration:uppercase;
+	margin-top:20px;
+	color:#fff;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+h1{
+	font-family: 'Luckiest Guy', cursive;
+	color:#f4ce42;
+	font-size: 90px;
+	margin-top: 6%;
+	letter-spacing: 10px;
+	text-align: center;
+	padding-top: 1.5%;
+	text-shadow: 2px 2px rgb(255, 255, 255, 0.5);
+	width: 70%;
+  length: 40%;
+  background-color: black;
+  margin-left: 15%;
+  margin-top: 2%;
+  box-shadow: 3px 3px 10px 10px rgb(0, 0, 0, 0.5);
+}
+
+h3 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 40px;
+	color:rgb(33, 168, 168);
+	letter-spacing: 6px;
+	text-shadow: 2px 2px rgb(0, 0, 0, 0.25);
+}
+/**** IF SCREEN SIZE IS NO LARGER THAN 640px ****/
+@media (max-width: 640px) {
+	#canvas-game{
+		width:385px;
+		height:348px;
+	}
+	
+	.box-picture, .box-picture > img, .box-cover{
+		width:75px;
+		height:56px;
+	}
+	
+	.box-cover{
+        background:url(../memory/images/cover.png) no-repeat;
+        background-color: white;
+	}
+	
+	#game-statistic{
+		margin-top:20px;
+	}
+	
+	#game-message, #game-statistic{
+		width:385px;
+	}
+	
+}
+
+/**** IF SCREEN SIZE IS NO LARGER THAN 320px ****/
+@media (max-width: 320px) {
+	#canvas-game{
+		width:156px;
+		height:390px;
+	}
+	
+	.box-picture, .box-picture > img, .box-cover{
+		width:50px;
+		height:38px;
+	}
+	
+	.box-cover{
+        background:url(../memory/images/cover.png) no-repeat;
+        background-color: white;
+	}
+	
+	#game-statistic{
+		margin-top:20px;
+	}
+	
+	#game-message, #game-statistic{
+		width:156px;
+	}
+	
+	#statistic-left, #statistic-right{
+        float:none;
+    }
+}

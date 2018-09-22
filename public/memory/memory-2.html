@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        background: url(images/memory.png) repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 22%;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Tiles!</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css" rel="stylesheet" />
+    <!-- <link href="styles/styles.css" type="text/css" rel="stylesheet" /> -->
+    <link href="memory.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+</head>
+
+<body>
+    <div id="memory2">
+
+        <head>
+            <h1>Memory Tiles!<span></span></h1>
+        </head>
+
+        <body>
+            <div class="game-back">
+                <h3>~ Match those cards ~</h3>
+                <div id="instruction-game">
+                    <h4>Instructions</h4>
+                    <h5>1. Select one of the boxes.</h5>
+                    <h5>2. Select another box!</h5>
+                    <h5>3. If your selections, do not match, make sure to remember the position of the image.</h5>
+                    <h5>4. Try to match all the images. Good luck!</h5>
+                </div>
+                <div id="canvas-game">
+                    <div id="game-content"></div>
+                </div>
+                <div id="game-statistic">
+                    <!-- <div id="statistic-left">No of Clicks: <span id="no-of-clicks" class="bold-text">0</span></div> -->
+                    <div id="statistic-right">Correct Guess: <span id="correct-guess" class="bold-text">0</span></div>
+                    <div class="clear"></div>
+                </div>
+                <div id="game-message">
+                    <div class="congrats-message">Congratulations, you have revealed all the images ;-)</div>
+                    <button id="btnRestart" type="button">Restart</button>
+                </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="memory-2.js"></script>
+                <script src="../js/giphy.js"></script>
+        </body>
+    </div>
+</body>
+
+</html>

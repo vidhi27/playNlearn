@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body { 
+background: url(images/question_mark.jpg) repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: 19%;
+}
+
+.quizContainer{
+background: url(images/supplies.jpg) repeat;
+background-size: 50%;
+}
+
+</style>
+<head>
+      <title>Trivia!</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" media="screen" href="trivia.css"/>
+      <script src="trivia-1.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+</head>
+<body>
+      <head>
+            <h1>HTML Trivia</h1>
+      </head>
+
+        <div class="quizContainer">
+            <button type="start" id="startme" style="font-family: 'Fredoka One'; letter-spacing: 5px; box-shadow: 3px 3px 3px 3px rgb(0, 0, 0, 0.5);">Start</button>   
+                  <div id="question" class="quest" style="font-family: 'Fredoka One'; letter-spacing: 5px; box-shadow: 3px 3px 3px 3px rgb(0, 0, 0, 0.5); background-color:lightcoral;"></div>
+                  <div></div>
+                  <div class="row">
+                        <button type="button" class="btn btn-warning btn-lg" id="button0" data-value=0>Button0</button>
+                  </div>
+                  <br>
+                  <div class="row">
+                        <button type="button" class="btn btn-warning btn-lg" id="button1" data-value=1>Button1</button>
+                  </div>
+                  <br>
+                  <div class="row">
+                        <button type="button" class="btn btn-warning btn-lg" id="button2" data-value=2>Button2</button>
+                  </div>
+      
+                  <div id="quizContent"></div>
+                  <div id="quizImg"></div>
+                  <div id="scoreboard"></div>
+                  <div class="row">
+                        <button type="button" class="resetme btn-lg" id="reset">Start Over?</button>
+                        <a href="trivia-2.html"><button type="button" id="nextBtn" class="btn-success btn-lg">Next Level</button></a>
+                  <br>
+               </div>   
+            </div>     
+      </div>
+      <script src="../js/giphy.js"></script>
+</body>
+
+</html>

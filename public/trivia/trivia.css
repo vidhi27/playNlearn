@@ -1,0 +1,119 @@
+body{
+margin: 20px;
+padding: 50px;
+/* background-size: 100% ; */
+text-align: center;
+font-family: sans-serif;
+}
+  
+.quizContainer{
+display: block;
+border: 3px solid #262626;
+border-radius: 8px;
+padding: 13%;
+background-color: rgb(253, 247, 231);
+border: solid 10px rgb(33, 168, 168);
+width: 70%;
+margin: 0 auto;
+margin-top: 50px;
+box-shadow: 3px 3px 10px 10px rgb(0, 0, 0, 0.5);
+}
+  
+h1{
+font-family: 'Luckiest Guy', cursive;
+color:#f4ce42;
+font-size: 90px;
+margin-top: 6%;
+letter-spacing: 10px;
+text-align: center;
+padding-top: 1.5%;
+text-shadow: 2px 2px rgb(255, 255, 255, 0.5);
+width: 70%;
+length: 40%;
+background-color: black;
+margin-left: 15%;
+margin-top: 2%;
+box-shadow: 3px 3px 10px 10px rgb(0, 0, 0, 0.5);
+}
+
+#timerDisplay {
+font-family: 'Luckiest Guy', cursive;
+font-size: 30px;
+}
+
+#startme{
+width: 40%;
+margin-top: 3%;
+/* margin-left: 5%; */
+padding-top: 3%;
+padding-bottom: 6%;
+background-color: rgb(32, 206, 183);
+border: solid 2px;
+text-shadow: 3px 3px rgb(0, 0, 0, 0.25);
+font-size: 50px;
+}
+
+.resetme {
+    background-color: #009999;
+    color: white;
+}
+
+.button {
+width: 80%;
+padding: 10%;
+margin: 0 auto;
+background-color: rgb(253, 247, 231);
+}
+
+#button0{
+background-color: rgb(143, 216, 162);
+border: solid 2px;
+text-shadow: 3px 3px rgb(0, 0, 0, 0.25)
+
+}
+
+#button1 {
+background-color: rgb(122, 211, 81);
+border: solid 2px;
+text-shadow: 3px 3px rgb(0, 0, 0, 0.25)
+}
+
+#button2 {
+background-color: rgb(45, 121, 10);
+border: solid 2px;
+text-shadow: 3px 3px rgb(0, 0, 0, 0.25)
+}
+
+.quest{
+padding: 10%;
+border: solid 10px #f4ce42;
+border-radius: 5%;
+text-shadow: 3px 3px rgb(0, 0, 0, 0.25)
+}
+
+#quizContent{
+font-family: 'Fredoka One', cursive;
+margin: 0 auto;    
+width: 80%;
+background-color: rgb(253, 247, 231);
+border: solid 5px black;
+box-shadow: 3px 3px rgb(0, 0, 0, 0.25)
+}
+
+#quizImg {
+    font-family: 'Fredoka One', cursive;
+    margin: 0 auto;    
+    width: 80%;
+    background-color: rgb(253, 247, 231);
+    border: solid 5px black;
+    box-shadow: 3px 3px rgb(0, 0, 0, 0.25)
+}
+
+#scoreboard{
+    font-family: 'Fredoka One', cursive;
+    margin: 0 auto;    
+    width: 80%;
+    background-color: rgb(253, 247, 231);
+    border: solid 5px black;
+    box-shadow: 3px 3px rgb(0, 0, 0, 0.25)
+}
