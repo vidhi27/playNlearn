@@ -10,6 +10,7 @@
     <ul>    
     <li>Levels: Beginner, Intermediate, Expert</li>
         <li>Games: Trivia, Fill in the Blanks, Memory Game</li>
+    </ul>
     <li>Our idea about the app is all about educating them, so we decided not to give them scores like pass or fail..it will just take in the progress for the completion of the tasks. We want them to remember the terms</li>
     </ul>
 
